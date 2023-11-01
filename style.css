@@ -1,0 +1,98 @@
+body, h1, h2, h3, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 100%;
+}
+
+body {
+    background-color: #696969;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;    
+}
+
+header {
+    background-color: #c98433;
+    padding: 25px; /*Висота хедера*/
+    display: flex;
+    justify-content: space-between; /*відступи між елементами*/
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center; /*центрування елементу*/
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+    margin-right: 30px;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    margin-right: 20px; /*відступи між кнопками*/
+    cursor: pointer;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+main img {
+    max-width: 50%;
+    float: left; /*розмішення починаючи з лівої сторони*/
+    margin-right: 20px;
+}
+
+main p {
+    font-size: 32px; /*розмір шрифту*/
+    font-weight: bold; /*жирний текст*/
+    padding: 250px;   
+}
+
+
+footer {
+    background-color: #c98433;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.social-links {
+    display: flex;
+    margin-right: 20px;
+}
+
+.social-links a {
+    color: #000000;
+    text-decoration: none;
+    margin-right: 30px;
+}
