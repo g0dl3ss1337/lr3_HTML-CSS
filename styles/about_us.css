@@ -1,0 +1,120 @@
+body, h1, h2, h3, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 100%;
+}
+
+body {
+    background-color: #696969;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;    
+}
+
+header {
+    background-color: #c98433;
+    padding: 25px; /*Висота хедера*/
+    display: flex;
+    justify-content: space-between; /*відступи між елементами*/
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center; /*центрування елементу*/
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+    margin-right: 30px;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    margin-right: 20px; /*відступи між кнопками*/
+    cursor: pointer;
+}
+
+.about-us-heading {
+    flex: 0 0 auto;
+    font: 400 64px Inter;
+    text-align: center;
+    padding-top: 50px;
+ }
+
+.about-section {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    padding-right: 424px;
+    padding-left: 424px;
+ }
+
+ .fit-match-container {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 68px;
+    margin-right: -18px;
+ }
+
+ .fit-match-description {
+    flex: 0 0 auto;
+    align-self: stretch;
+    font: 400 24px/28px Georgia;
+    text-align: center;
+ }
+
+ .image-container {
+    padding-top: 20px;
+    display: block;
+    width: auto;
+    height: auto;
+ }
+
+
+footer {
+    background-color: #c98433;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.social-links {
+    display: flex;
+    margin-right: 20px;
+}
+
+.social-links a {
+    color: #000000;
+    text-decoration: none;
+    margin-right: 30px;
+}

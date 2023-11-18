@@ -1,0 +1,140 @@
+body, h1, h2, h3, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 100%;
+}
+
+body {
+    background-color: #696969;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;    
+}
+
+header {
+    background-color: #c98433;
+    padding: 25px; /*Висота хедера*/
+    display: flex;
+    justify-content: space-between; /*відступи між елементами*/
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center; /*центрування елементу*/
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+    margin-right: 30px;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    margin-right: 20px; /*відступи між кнопками*/
+    cursor: pointer;
+}
+
+.fitness-trainers-section {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    gap: 150px; /* відступ між елементами */
+    align-items: center;
+    justify-content: center;
+    margin-top: 68px;
+    overflow: hidden;
+    overflow-wrap: wrap;
+  }
+
+.professional-trainer-container {
+  box-sizing: border-box;
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  gap: 37px;
+  align-items: center;
+  justify-content: center;
+  max-width: 415px;
+}
+
+.training-image {
+  box-sizing: border-box;
+  display: block;
+  flex: 0 0 auto;
+  width: 260px;
+  max-width: initial;
+  height: 347px;
+  border: none;
+  object-fit: cover;
+}
+
+.professional-trainer-info {
+  flex: 0 0 auto;
+  align-self: stretch;
+  font: 400 24px/28px Georgia;
+  text-align: center;
+}
+
+.detailed-container { /* Налаштуваня контейнера для кнопки */
+    flex: 0 0 auto;
+    align-self: stretch;
+    padding-right: 56px;
+    padding-left: 57px;
+    margin-top: 8.5px;
+    text-align: center;
+}
+
+.detailed-container button {
+    border-radius: 10px; /* Додаємо скруглення країв кнопки */
+    padding: 10px 20px; /* Додаємо відступи всередині кнопки */
+    font-size: 16px; /* Змінюємо розмір шрифту кнопки */
+    background-color: #696969;
+}
+
+.detailed-container button:hover { /* Додаемо ефекти при наведені */
+    cursor: pointer;
+    background-color: gray;
+}
+
+footer { /* Стилі для футера */
+    background-color: #c98433;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.social-links {
+    display: flex;
+    margin-right: 20px;
+}
+
+.social-links a {
+    color: #000000;
+    text-decoration: none;
+    margin-right: 30px;
+}
